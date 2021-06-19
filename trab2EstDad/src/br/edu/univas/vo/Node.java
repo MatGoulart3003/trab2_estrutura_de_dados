@@ -9,7 +9,7 @@ public class Node {
 	private int quant;
 	private ArrayList<Node> subArv = new ArrayList<>();
 	
-	public ArrayList<Node> getFilhos() {
+	public ArrayList<Node> getSubArv() {
 		return subArv;
 	}
 	public void setFilhos(ArrayList<Node> subArv) {
@@ -34,8 +34,12 @@ public class Node {
 	public void setQuant(int quant) {
 		this.quant = quant;
 	}
+	@Override
+	public String toString() {
+		return "Node [name=" + name + ", value=" + value + ", quant=" + quant + ", subArv=" + subArv + "]";
+	}
 	
-
+	
 	
 	
 }

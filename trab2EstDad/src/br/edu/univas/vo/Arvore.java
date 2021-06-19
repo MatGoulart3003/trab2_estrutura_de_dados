@@ -6,13 +6,11 @@ public class Arvore {
 	private int amout;
 	
 	
-	public Node newNode(String caracter, int quant, int value) {
+	public Node newNode(String caracter, int quant) {
 		
 		Node node = new Node();
 		node.setName(caracter);
-		node.setQuant(quant);
-		node.setValue(value);
-		
+						
 		return node;
 	
 	}
@@ -20,22 +18,22 @@ public class Arvore {
 	public Node initialNode (String nome) {
 		
 		final int quant = 1;
-		root = newNode(nome, quant, amout);
+		root = newNode(nome, quant);
 		
 		return root;
 	}
 	
-	public Node newLevel(String nome, int quant, int value) {
+	public Node newLevel(String nome, int quant) {
 		
-		Node mainNode = newNode(nome, quant, value);
+		Node subNode = newNode(nome, quant);
 		
-		return mainNode;
+		return subNode;
 
 	}
 	
 	public void setListNodes (Node highLevelNode, Node node) {
 		
-		highLevelNode.getFilhos().add(node);
+		highLevelNode.getSubArv().add(node);
 		
 	}
 	
@@ -46,6 +44,15 @@ public class Arvore {
 	public void setAmout(int amout) {
 		this.amout = amout;
 	}
+
+	public Node getRoot() {
+		return root;
+	}
+
+	public void setRoot(Node root) {
+		this.root = root;
+	}
+	
 	
 	
 }
