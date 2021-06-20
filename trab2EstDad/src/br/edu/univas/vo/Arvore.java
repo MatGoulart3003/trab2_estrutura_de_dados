@@ -10,7 +10,8 @@ public class Arvore {
 		
 		Node node = new Node();
 		node.setName(caracter);
-						
+		node.setQuant(quant);
+		
 		return node;
 	
 	}
