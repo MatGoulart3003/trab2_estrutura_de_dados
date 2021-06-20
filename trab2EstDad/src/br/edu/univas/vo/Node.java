@@ -22,7 +22,7 @@ public class Node {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public float getValue() {
+	public int getValue() {
 		return value;
 	}
 	public void setValue(int value) {
@@ -34,10 +34,7 @@ public class Node {
 	public void setQuant(int quant) {
 		this.quant = quant;
 	}
-	@Override
-	public String toString() {
-		return "Node [name=" + name + ", value=" + value + ", quant=" + quant + ", subArv=" + subArv + "]";
-	}
+	
 	
 	
 	
