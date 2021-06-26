@@ -35,6 +35,19 @@ public class Node {
 		this.quant = quant;
 	}
 	
+	public void calcEntireValueList () {
+		
+		int num = 0; 
+		if (!subArv.isEmpty()) {
+			for (Node node : subArv) {
+				num += (node.getQuant() * node.getValue());
+			}
+			
+			this.value = num;
+		}
+	
+		
+	}
 	
 	
 	

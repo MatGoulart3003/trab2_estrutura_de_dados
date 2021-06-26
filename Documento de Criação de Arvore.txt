@@ -1,0 +1,123 @@
+Quarto
+3
+Cozinha
+1
+Sala
+1
+Banheiro
+2
+Armário
+1
+Cama
+1
+Notebook
+1
+Mesa do Notebook
+1
+Mesa
+1
+Cadeira
+6
+Pia
+1
+Geladeira
+1
+Fogão
+1
+Televisão
+1
+Sofá
+2
+Estante
+1
+Lavabo
+1
+Chuveiro
+1
+Vaso Sanitário
+1
+Box de Banheiro
+1
+Armário Com Espelho
+1
+Porta do Armário
+4
+Cabides
+126
+Gavetas
+2
+Estrutura Adicional do Armário
+1
+Colchão
+1
+Travesseiro
+1
+Estrado
+1
+Estruturas adicionais da cama
+1
+Tampa da Mesa do Notebook
+1
+Pernas da Mesa do Notebook
+2
+Dobradiças da Mesa do notebook
+4
+Parafusos da mesa do Notebook
+50
+Tampa da Mesa de Jantar
+1
+Pernas da Mesa de Jantar
+4
+Parafusos da Mesa de jantar
+20
+Encosto da Cadeira
+1
+Assento da Cadeira
+1
+Parafusos da Cadeira
+20
+Pernas da Cadeira
+4
+Torneira
+1
+Estrutura Da Pia
+1
+Pia de Banheiro
+1
+Torneira de Banheiro
+1
+Demais Componentes do Lavabo
+1
+1000
+1000
+1000
+300
+600
+80
+1000
+250
+225
+50
+1
+50
+450
+500
+70
+100
+300
+50
+25
+5
+1
+100
+25
+1
+15
+15
+1
+10
+50
+600
+400
+60
+200
